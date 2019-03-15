@@ -17,7 +17,6 @@ deploy:
   github_token: "$GITHUB_TOKEN"
   email: chris.guindon@eclipse-foundation.org
   name: Christopher Guindon
-  fqdn: openmobility.eclipse.org
   on:
     branch: master
 env:
