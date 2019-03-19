@@ -21,6 +21,7 @@
   },
   "readmeFilename": "README.md",
   "dependencies": {
+    "Yamm": "git+https://github.com/geedmo/yamm3.git",
     "eclipsefdn-hugo-solstice-theme": "0.0.18"
   }
 }
