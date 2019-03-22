@@ -50,7 +50,3 @@ themesDir = "node_modules/"
     name = "About"
     url = "/about/"
     weight = 1
-
-    name = "Members"
-    url = "/members/"
-    weight = 1
