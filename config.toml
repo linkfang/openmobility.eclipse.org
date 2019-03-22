@@ -1,6 +1,6 @@
 baseurl = "https://eclipsefdn.github.io/openmobility.eclipse.org/"
 DefaultContentLanguage = "en"
-title = "The OpenMobility working group will drive the evolution and broad adoption of mobility modelling and simulation technologies." 
+title = "The openMobility working group will drive the evolution and broad adoption of mobility modelling and simulation technologies." 
 theme = "eclipsefdn-hugo-solstice-theme"
 metaDataFormat = "yaml"
 #googleAnalytics = ""
@@ -11,7 +11,7 @@ themesDir = "node_modules/"
   google_tag_manager = "GTM-5WLCZXC"
   description = ""
   subtitle = ""
-  seo_title_suffix = "| Eclipse OpenMobility Working Group | The Eclipse Foundation"
+  seo_title_suffix = "| Eclipse openMobility Working Group | The Eclipse Foundation"
   keywords = ["Mobility modelling", "simulation technologies", "OpenMobility framework", "Mobility-as-a-Service"]
 # logo = ""
   styles = "css/styles.css"
@@ -49,4 +49,8 @@ themesDir = "node_modules/"
 [[menu.main]]
     name = "About"
     url = "/about/"
+    weight = 1
+
+    name = "Members"
+    url = "/members/"
     weight = 1
