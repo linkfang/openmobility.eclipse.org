@@ -1,7 +1,7 @@
 ---
 title: "Home"
 seo_title: "The OpenMobility working group will drive the evolution and broad adoption of mobility modelling and simulation technologies"
-headline: "Eclipse OpenMobility"
+headline: "Eclipse openMobility"
 subtitle: ""
 description: ""
 tagline: ""
