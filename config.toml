@@ -13,7 +13,7 @@ themesDir = "node_modules/"
   subtitle = ""
   seo_title_suffix = "| Eclipse openMobility Working Group | The Eclipse Foundation"
   keywords = ["Mobility modelling", "simulation technologies", "OpenMobility framework", "Mobility-as-a-Service"]
-# logo = ""
+  logo = "images/logo/OpenMobility_Logo_Multicolor_DarkBlueBG_Horizontal.svgz"
   styles = "css/styles.css"
 # favicon = "o"
 # share_img = ""
@@ -50,3 +50,8 @@ themesDir = "node_modules/"
     name = "About"
     url = "/about/"
     weight = 1
+
+[[menu.main]]
+    name = "Members"
+    url = "/members/"
+    weight = 2
