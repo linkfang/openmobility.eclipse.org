@@ -47,11 +47,36 @@ themesDir = "node_modules/"
   hrefTargetBlank = true
 
 [[menu.main]]
-    name = "About"
-    url = "/about/"
+    name = "Home"
+    url = "/"
     weight = 1
+
+[[menu.main]]
+    name = "News"
+    url = "/news/"
+    weight = 2
+
+[[menu.main]]
+    name = "Events"
+    url = "/events/"
+    weight = 3
+
+[[menu.main]]
+    name = "Vision"
+    url = "/vision/"
+    weight = 4
+
+[[menu.main]]
+    name = "Technologies"
+    url = "/technologies/"
+    weight = 5
 
 [[menu.main]]
     name = "Members"
     url = "/members/"
-    weight = 2
+    weight = 6
+
+[[menu.main]]
+    name = "Working Group"
+    url = "/working-group/"
+    weight = 7
