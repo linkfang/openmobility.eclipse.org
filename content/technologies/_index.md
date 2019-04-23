@@ -17,7 +17,6 @@ draft: false
 #links: []
 ---
 
-
 ## Eclipse SUMO 
 <img src="../images/logo/sumo-logo.svg" alt="Eclipse SUMO logo" width=200px style="pointer-events:none;">
 
