@@ -1,6 +1,7 @@
 ---
 title: "Technologies"
 date: 2019-04-16T16:09:21+02:00
+layout: "single"
 description: ""
 categories: []
 keywords: []
@@ -16,7 +17,7 @@ draft: false
 #links: []
 ---
 
-***
+
 ## Eclipse SUMO 
 <img src="../images/logo/sumo-logo.svg" alt="Eclipse SUMO logo" width=200px style="pointer-events:none;">
 
