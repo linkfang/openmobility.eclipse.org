@@ -56,5 +56,3 @@ SUMO is developed in C++ and Python. It runs on Windows, Linux and OSX.
 
 <a href="https://twitter.com/EclipseSUMO?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @EclipseSUMO</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-
-***

@@ -16,3 +16,7 @@ As a leading IoT company, Bosch offers innovative solutions for smart homes, sma
 The Bosch Group's strategic objective is to deliver innovations for a connected life. Bosch improves quality of life worldwide with products and services that are innovative and spark enthusiasm. In short, Bosch creates technology that is Invented for life.
 
 The Bosch Group comprises Robert Bosch GmbH and its roughly 440 subsidiary and regional companies in 60 countries. Including sales and service partners, Bosch's global manufacturing, engineering, and sales network covers nearly every country in the world. The basis for the company's future growth is its innovative strength. At 125 locations across the globe, Bosch employs some 64,500 associates in research and development.
+
+### Links:
+
+<a href="https://www.bosch.de/">Visit website</a>

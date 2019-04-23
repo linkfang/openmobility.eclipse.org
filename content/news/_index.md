@@ -1,7 +1,7 @@
 ---
 title: "News"
 date: 2019-04-16T16:09:45+02:00
-layout: "single"
+layout: "news"
 description: ""
 categories: []
 keywords: []
@@ -16,3 +16,6 @@ draft: false
 #tagline: ""
 #links: []
 ---
+
+Here you will find the latest news about the openMobility Group.
+
