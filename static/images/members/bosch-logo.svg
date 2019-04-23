@@ -9,8 +9,8 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
    width="403.33899"
-   height="240"
-   viewBox="0 0 403.33899 240"
+   height="125.524"
+   viewBox="0 0 403.33899 125.524"
    id="svg2"
    inkscape:version="0.91 r13725"
    sodipodi:docname="bosch-logo.svg">
@@ -42,7 +42,7 @@
      id="namedview42"
      showgrid="false"
      inkscape:zoom="0.798"
-     inkscape:cx="87.719298"
+     inkscape:cx="-74.561404"
      inkscape:cy="120"
      inkscape:window-x="0"
      inkscape:window-y="0"
@@ -60,7 +60,7 @@
     </style>
   <g
      id="anchor-brandname-slogan"
-     transform="translate(-2.2888184e-4,57.238037)">
+     transform="translate(-2.2888184e-4,3.8146973e-5)">
     <svg
        version="1.1"
        xml:space="preserve"
@@ -117,7 +117,7 @@
                inkscape:connector-curvature="0"
                style="clip-rule:evenodd;fill-rule:evenodd" /><polygon
                class="st0"
-               points="213.8,42.9 213.8,62.6 227,62.6 227,12.7 213.8,12.7 213.8,31.1 198.7,31.1 198.7,12.7 185.6,12.7 185.6,62.6 198.7,62.6 198.7,42.9 "
+               points="198.7,12.7 185.6,12.7 185.6,62.6 198.7,62.6 198.7,42.9 213.8,42.9 213.8,62.6 227,62.6 227,12.7 213.8,12.7 213.8,31.1 198.7,31.1 "
                id="polygon37"
                style="clip-rule:evenodd;fill-rule:evenodd" /></g></g></g></svg>    <g
        id="g39">
