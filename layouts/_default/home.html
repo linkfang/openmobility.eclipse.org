@@ -20,7 +20,7 @@
 
     <div class="margin-top-40" style="padding: 35px; background: white;">
       
-        <img src="images/gears.svg" width="100px" alt="gears" style="pointer-events:none; margin-bottom: 20px;">
+        <img src="images/gears.svg" width="200px" alt="gears" style="pointer-events:none; margin-bottom: 20px;">
         <br>
       It is the goal of this working group to deliver a framework of tools based on validated models, which are accepted as “standard tools” in industry applications and academia.
         <br><br>
@@ -40,8 +40,11 @@
           <ul class="news-list-media list-unstyled">
             <li>
               <a href="{{- with .Params.link | default .RelPermalink }} {{.}} {{- end }}" class="media media-link match-height-item" >
-                <p class="media-date">{{ .Date.Format "Monday, Jan 2, 2006" }}</p>
+                <!-- <p class="media-date">{{ .Date.Format "Monday, Jan 2, 2006" }}</p> -->
+                <p><span class="label label-default">{{ .Params.label }}</span></p>
+                      <p class="media-date">{{ .Params.event_date }}</p>
                 <h4 class="media-heading">{{ .Title }}</h4>
+                <p class="media-text">{{ .Params.location }}</p>
                 <p class="media-text">{{ .Summary }}</p>
               </a>
             </li>

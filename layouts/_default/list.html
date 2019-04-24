@@ -16,9 +16,11 @@
               <ul class="news-list-media list-unstyled">
                 <li>
                   <a href="{{- with .Params.link | default .RelPermalink }} {{.}} {{- end }}" class="media media-link">
-                  <p class="media-date">{{ .Date.Format "Monday, Jan 2, 2006" }}</p>
-                  <h4 class="media-heading">{{ .Title }}</h4>
-                  <p class="media-text">{{ .Summary }}</p>
+                      <p><span class="label label-default">{{ .Params.label }}</span></p>
+                      <p class="media-date">{{ .Params.event_date }}</p>
+                <h4 class="media-heading">{{ .Title }}</h4>
+                <p class="media-text">{{ .Params.location }}</p>
+                <p class="media-text">{{ .Summary }}</p>
                 </a>
               </li>
             </ul>
