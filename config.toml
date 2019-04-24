@@ -90,7 +90,19 @@ themesDir = "node_modules/"
     weight = 1
 
 [[menu.main]]
-    name = "Become a Member"
-    url = "/working-group/become-a-member"
+    name = "Contact"
+    url = "/working-group/"
     parent = "Working Group"
     weight = 2
+
+[[menu.main]]
+    name = "Join openMobility"
+    url = "/working-group/become-a-member"
+    parent = "Working Group"
+    weight = 3
+
+[[menu.main]]
+    name = "Charter"
+    url = "https://www.eclipse.org/org/workinggroups/openmobility_charter.php"
+    parent = "Working Group"
+    weight = 4
