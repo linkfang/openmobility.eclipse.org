@@ -3,10 +3,9 @@
 <main>
   <div class="container">
 
-
+    <!-- Member logos -->
     <div class="margin-top-20">
       <h2 class="heading-line text-center" style="color:rgb(245,147,49); font-weight: bold;">Our Members</h2>
-
       <div class="container-fluid text-center">
         <br>
       <div class="row text-center">
@@ -19,17 +18,25 @@
     </div>
 
 
+    <div class="margin-top-40" style="padding: 35px; background: white;">
+      
+        <img src="images/gears.svg" width="100px" alt="gears" style="pointer-events:none; margin-bottom: 20px;">
+        <br>
+      It is the goal of this working group to deliver a framework of tools based on validated models, which are accepted as “standard tools” in industry applications and academia.
+        <br><br>
+        <a href="https://accounts.eclipse.org/mailing-list/openmobility"><button type="button" class="btn btn-secondary">Read our Vision</button></a>
+        <a href="https://accounts.eclipse.org/mailing-list/openmobility"><button type="button" class="btn btn-secondary">View Group Charter</button></a>
+      </div>
 
 
-
-    <!-- Announcements & Tweets -->
-    <div class="row margin-bottom-10 margin-top-40">
+    <!-- Upcoming Meetings & Conferences and Tweets -->
+    <div class="row margin-top-40">
       <div class="col-sm-12 news-list">
         <div class="news-list-col margin-bottom-40">
           <h2 class="heading-line text-center" style="color:rgb(245,147,49); font-weight: bold;">
-            <span>Workgroup Meetings & Conferences</span>
+            <span>Upcoming Meetings & Conferences</span>
           </h2>
-          {{ range first 5 (where (index .Site.Taxonomies.categories "events").Pages "Section" "events") }}
+          {{ range first 2 (where (index .Site.Taxonomies.categories "events").Pages "Section" "events") }}
           <ul class="news-list-media list-unstyled">
             <li>
               <a href="{{- with .Params.link | default .RelPermalink }} {{.}} {{- end }}" class="media media-link match-height-item" >
@@ -47,11 +54,11 @@
         </div>
       </div>
       <div class="col-sm-12 news-list">
-        <div class="news-list-col margin-bottom-40">
+        <div class="news-list-col margin-bottom-20">
           <h2 class="heading-line text-center" style="color:rgb(245,147,49); font-weight: bold;">
             <span>Our Tweets</span>
           </h2>
-          <a class="twitter-timeline" data-height="650" href="https://twitter.com/open_mobility?ref_src=twsrc%5Etfw">Tweets by openMobility</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          <a class="twitter-timeline" data-height="700" href="https://twitter.com/open_mobility?ref_src=twsrc%5Etfw">Tweets by openMobility</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
         </div>
       </div>
@@ -60,6 +67,8 @@
 
 
   
- <div class="container-fluid" style="background:red;">Hola</div>
+ <div class="container-fluid text-center" style="padding-top:50px; height: 150px; background-color: #0F2C5C;">
+  <a href="https://accounts.eclipse.org/mailing-list/openmobility"><button type="button" class="btn btn-lg btn-primary">Join our Mailing list <i class="fa fa-envelope"></i></button></a>
+</div>
 </main>
 {{ end }}
