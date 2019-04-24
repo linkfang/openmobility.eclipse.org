@@ -80,3 +80,17 @@ themesDir = "node_modules/"
     name = "Working Group"
     url = "/working-group/"
     weight = 7
+
+# Sub-menu
+
+[[menu.main]]
+    name = "About"
+    url = "/working-group/"
+    parent = "Working Group"
+    weight = 1
+
+[[menu.main]]
+    name = "Become a Member"
+    url = "/working-group/become-a-member"
+    parent = "Working Group"
+    weight = 2
