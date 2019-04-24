@@ -27,9 +27,9 @@
       <div class="col-sm-12 news-list">
         <div class="news-list-col margin-bottom-40">
           <h2 class="heading-line text-center" style="color:rgb(245,147,49); font-weight: bold;">
-            <span>Announcements</span>
+            <span>Workgroup Meetings & Conferences</span>
           </h2>
-          {{ range first 5 (where (index .Site.Taxonomies.categories "announcements").Pages "Section" "news") }}
+          {{ range first 5 (where (index .Site.Taxonomies.categories "events").Pages "Section" "events") }}
           <ul class="news-list-media list-unstyled">
             <li>
               <a href="{{- with .Params.link | default .RelPermalink }} {{.}} {{- end }}" class="media media-link match-height-item" >
@@ -41,8 +41,8 @@
           </ul>
           {{ end }}
           <ul class="list-inline news-list-links">
-            <li class="news-list-links-view-all"><a href="{{ "categories/announcements" | relURL }}">View all</a></li>
-            <li class="news-list-links-rss"><a href="{{ "categories/announcements/index.xml" | relURL }}" title="Subscribe to our RSS-feed">Subscribe to our RSS-feed <i class="fa fa-rss"></i></a></li>
+            <li class="news-list-links-view-all"><a href="{{ "/events" | relURL }}">View all</a></li>
+            <li class="news-list-links-rss"><a href="{{ "categories/events/index.xml" | relURL }}" title="Subscribe to our RSS-feed">Subscribe to our RSS-feed <i class="fa fa-rss"></i></a></li>
           </ul>
         </div>
       </div>
@@ -59,6 +59,7 @@
   </div>
 
 
-  </div>
+  
+ <div class="container-fluid" style="background:red;">Hola</div>
 </main>
 {{ end }}
