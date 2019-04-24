@@ -3,18 +3,6 @@ title: "Eclipse SUMO"
 date: 2019-04-16T16:09:21+02:00
 layout: "single"
 description: ""
-categories: []
-keywords: []
-slug: ""
-aliases: []
-toc: false
-draft: false
-#header_wrapper_class: ""
-#seo_title: ""
-#headline: ""
-#subtitle: ""
-#tagline: ""
-#links: []
 ---
 
 <img src="../../images/logo/sumo-logo.svg" alt="Eclipse SUMO logo" width=200px style="pointer-events:none;">
