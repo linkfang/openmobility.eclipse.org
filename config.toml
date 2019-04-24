@@ -91,7 +91,7 @@ themesDir = "node_modules/"
 
 [[menu.main]]
     name = "Contact"
-    url = "/working-group/"
+    url = "/working-group/contact"
     parent = "Working Group"
     weight = 2
 
