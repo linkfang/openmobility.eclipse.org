@@ -41,7 +41,7 @@
             <h2 class="heading-line text-center">
               <span><a href="{{ "/news/community-news" | relURL }}">Community News</a></span>
             </h2>
-            {{ range first 5 (where (index .Site.Taxonomies.categories "community").Pages "Section" "news") }}
+            {{ range first 5 (where (index .Site.Taxonomies.categories "community-news").Pages "Section" "news") }}
             <ul class="news-list-media list-unstyled">
               <li>
                 <a href="{{- with .Params.link | default .RelPermalink }} {{.}} {{- end }}" class="media media-link match-height-item">
