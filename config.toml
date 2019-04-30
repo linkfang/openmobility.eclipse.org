@@ -109,7 +109,13 @@ buildFuture = true #allows to publish posts with future dates
     weight = 3
 
 [[menu.main]]
+    name = "Wiki"
+    url = "https://wiki.eclipse.org/OpenMobility"
+    parent = "Working Group"
+    weight = 4
+
+[[menu.main]]
     name = "Charter"
     url = "https://www.eclipse.org/org/workinggroups/openmobility_charter.php"
     parent = "Working Group"
-    weight = 4
+    weight = 5
