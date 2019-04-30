@@ -10,7 +10,7 @@ buildFuture = true #allows to publish posts with future dates
 
 [Params]
   google_tag_manager = "GTM-5WLCZXC"
-  description = ""
+  description = "The openMobility working group will drive the evolution and broad adoption of mobility modelling and simulation technologies."
   subtitle = ""
   seo_title_suffix = " | Eclipse openMobility Working Group | The Eclipse Foundation"
   keywords = ["Mobility modelling", "simulation technologies", "OpenMobility framework", "Mobility-as-a-Service"]
