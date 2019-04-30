@@ -85,6 +85,12 @@ buildFuture = true #allows to publish posts with future dates
 # Sub-menu
 
 [[menu.main]]
+    name = "Eclipse SUMO"
+    url = "/technologies/eclipse-sumo"
+    parent = "Technologies"
+    weight = 1
+
+[[menu.main]]
     name = "About"
     url = "/working-group/"
     parent = "Working Group"

@@ -36,7 +36,7 @@
           <h2 class="heading-line text-center" style="color:rgb(245,147,49); font-weight: bold;">
             <span>Upcoming Meetings & Conferences</span>
           </h2>
-          {{ range first 2 (where (index .Site.Taxonomies.categories "events").Pages "Section" "events") }}
+          {{ range first 2 (where (index .Site.Taxonomies.categories "event").Pages "Section" "events") }}
           <ul class="news-list-media list-unstyled">
             <li>
               <a href="{{- with .Params.link | default .RelPermalink }} {{.}} {{- end }}" class="media media-link match-height-item" >

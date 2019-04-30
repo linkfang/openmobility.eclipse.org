@@ -19,7 +19,7 @@
             <h2 class="heading-line text-center">
               <span><a href="{{ "/events/conferences" | relURL }}">Conferences</a></span>
             </h2>
-            {{ range first 5 (where (index .Site.Taxonomies.categories "conferences").Pages "Section" "events") }}
+            {{ range first 5 (where (index .Site.Taxonomies.categories "conference").Pages "Section" "events") }}
             <ul class="news-list-media list-unstyled">
               <li>
                 <a href="{{- with .Params.link | default .RelPermalink }} {{.}} {{- end }}" class="media media-link match-height-item" >
@@ -41,7 +41,7 @@
             <h2 class="heading-line text-center">
               <span><a href="{{ "/events/meetings" | relURL }}">Meetings</a></span>
             </h2>
-            {{ range first 5 (where (index .Site.Taxonomies.categories "meetings").Pages "Section" "events") }}
+            {{ range first 5 (where (index .Site.Taxonomies.categories "meeting").Pages "Section" "events") }}
             <ul class="news-list-media list-unstyled">
               <li>
                 <a href="{{- with .Params.link | default .RelPermalink }} {{.}} {{- end }}" class="media media-link match-height-item">
