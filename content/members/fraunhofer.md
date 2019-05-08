@@ -5,7 +5,9 @@ description: ""
 layout: "single"
 ---
 
-<img src="../../images/members/fraunhofer-logo.png" width="200px" alt="FRAUNHOFER logo" style="pointer-events:none;"><br><br>
+<img src="http://openmobility.eclipse.org/images/members/fraunhofer-logo.png" width="200px" alt="FRAUNHOFER logo" style="pointer-events:none;"><br><br>
+
+<!--more-->
 
 Fraunhofer FOKUS provides R&D services for the development of seamless personalizable communication systems at all stages of the innovation process from the original innovative idea and project-related R&D right through to testing, prototype development and implementation.
 

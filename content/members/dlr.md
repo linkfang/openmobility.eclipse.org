@@ -5,9 +5,12 @@ description: ""
 layout: "single"
 ---
 
-<img src="../../images/members/dlr-logo.svg" width="200px" alt="DLR logo" style="pointer-events:none;"><br><br>
+<img src="http://openmobility.eclipse.org/images/members/dlr-logo.svg" width="200px" alt="DLR logo" style="pointer-events:none;"><br><br>
 
-DLR is the national aeronautics and space research centre of the Federal Republic of Germany. 
+<!--more-->
+
+DLR is the national aeronautics and space research centre of the Federal Republic of Germany.
+
 Its extensive research and development work in aeronautics, space, energy, transport and security is integrated into national and international cooperative ventures. In addition to its own research, as Germanys space agency, DLR has been given responsibility by the federal government for the planning and implementation of the German space programme. DLR is also the umbrella organisation for the nations largest project management agency.
 
 DLR has approximately 8000 employees at 20 locations in Germany: Cologne (headquarters), Augsburg, Berlin, Bonn, Braunschweig, Bremen, Bremerhaven, Dresden, Goettingen, Hamburg, Jena, Juelich, Lampoldshausen, Neustrelitz, Oberpfaffenhofen, Oldenburg, Stade, Stuttgart, Trauen, and Weilheim. DLR also has offices in Brussels, Paris, Tokyo and Washington D.C.
