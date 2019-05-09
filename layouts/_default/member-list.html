@@ -15,7 +15,6 @@
             {{ range $paginator.Pages }}
               <ul class="news-list-media list-unstyled">
                 <li>
-<<<<<<< HEAD
                   <a href="{{- with .Params.link | default .RelPermalink }} {{.}} {{- end }}" class="media media-link">
                   
                
@@ -24,13 +23,6 @@
                 </a>
               </li>
             </ul>
-=======
-                  <a href="{{- with .Params.link | default .RelPermalink }} {{.}} {{- end }}" class="media media-link">              
-                    <p class="media-text">{{ .Summary }}</p>
-				  </a>
-                </li>
-              </ul>
->>>>>>> 0b7e432c503c486412c867a80064e60435b69268
           {{ end }}
           {{ template "_internal/pagination.html" . }}
         </div>
