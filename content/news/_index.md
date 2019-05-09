@@ -13,5 +13,4 @@ slug: ""
 #links: []
 ---
 
-Here you will find the latest announcements about the openMobility Group and community news such as Eclipse SUMO releases.
 
