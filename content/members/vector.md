@@ -1,6 +1,6 @@
 ---
 title: "Vector Informatik GmbH"
-date: 2019-04-22T16:09:45-04:00
+date: 2019-04-19T16:09:45-04:00
 description: ""
 layout: "single"
 ---
