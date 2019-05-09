@@ -5,7 +5,7 @@ description: ""
 layout: "single"
 ---
 
-<img src="http://openmobility.eclipse.org/images/members/fraunhofer-logo.png" width="200px" alt="FRAUNHOFER logo" style="pointer-events:none;"><br><br>
+<img src="http://openmobility.eclipse.org/images/members/fraunhofer-logo.png" width="200px" alt="FRAUNHOFER logo" style="pointer-events:none;">
 
 <!--more-->
 

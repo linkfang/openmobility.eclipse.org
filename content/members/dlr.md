@@ -5,7 +5,7 @@ description: ""
 layout: "single"
 ---
 
-<img src="http://openmobility.eclipse.org/images/members/dlr-logo.svg" width="200px" alt="DLR logo" style="pointer-events:none;"><br><br>
+<img src="http://openmobility.eclipse.org/images/members/dlr-logo.svg" width="200px" alt="DLR logo" style="pointer-events:none;">
 
 <!--more-->
 
