@@ -1,10 +1,10 @@
 ---
 title: "Home"
-seo_title: "The OpenMobility working group will drive the evolution and broad adoption of mobility modelling and simulation technologies"
-headline: "Eclipse openMobility"
-subtitle: "The openMobility working group will drive the evolution and broad adoption of mobility modelling and simulation technologies."
+seo_title: "Driving the evolution and broad adoption of open source mobility modelling and simulation technologies"
+headline: "openMobility Working Group"
+subtitle: "Driving the evolution and broad adoption of open source mobility modelling and simulation technologies."
 description: ""
 tagline: ""
-links: [[href: "technologies/eclipse-sumo", text: "Eclipse SUMO"], [href: "working-group/become-a-member", text: "Become a Member"]]
+links: [[href: "technologies/eclipse-sumo", text: "Eclipse SUMO"], [href: "working-group/become-a-member", text: "Become a Member"], [href: "working-group/contact", text: "Contact"]]
 date: 2019-03-14T15:50:25-04:00
 ---
