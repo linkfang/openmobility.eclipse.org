@@ -20,7 +20,7 @@ Eclipse SUMO comprises of a graphical user interface and a variety of external p
 * MAROUTER: macroscopic user assignment based on capacity functions
 * NETEDIT: Visual editor for street networks, traffic lights, detectors, and further network elements
 
-SUMO is developed in C++ and Python. It runs on Windows, Linux and OSX.
+SUMO is developed in C++ and Python. It runs on Windows, Linux and macOS.
 
 ### License:
 
@@ -28,9 +28,9 @@ SUMO is developed in C++ and Python. It runs on Windows, Linux and OSX.
 
 ### Screenshots:
 
-<img src="../../images/screenshots/SUMO-2D.png" alt="SUMO 2D screenshot" width=300px style="pointer-events:none;">
+<img src="../../images/screenshots/SUMO-2D.png" alt="SUMO 2D screenshot" width=400px style="pointer-events:none;">
 
-<img src="../../images/screenshots/SUMO-3D.png" alt="SUMO 3D screenshot" width=300px style="pointer-events:none;">
+<img src="../../images/screenshots/SUMO-3D.png" alt="SUMO 3D screenshot" width=400px style="pointer-events:none;">
 
 
 ### Links:
