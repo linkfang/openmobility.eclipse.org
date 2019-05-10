@@ -98,25 +98,19 @@ canonifyURLs = false #keep false
     weight = 1
 
 [[menu.main]]
-    name = "Contact"
-    url = "/working-group/contact"
+    name = "Charter"
+    url = "https://www.eclipse.org/org/workinggroups/openmobility_charter.php"
     parent = "Working Group"
     weight = 2
 
 [[menu.main]]
-    name = "Join openMobility"
+    name = "Join Eclipse openMobility"
     url = "/working-group/become-a-member"
     parent = "Working Group"
     weight = 3
 
 [[menu.main]]
-    name = "Wiki"
-    url = "https://wiki.eclipse.org/OpenMobility"
+    name = "Contact"
+    url = "/working-group/contact"
     parent = "Working Group"
     weight = 4
-
-[[menu.main]]
-    name = "Charter"
-    url = "https://www.eclipse.org/org/workinggroups/openmobility_charter.php"
-    parent = "Working Group"
-    weight = 5

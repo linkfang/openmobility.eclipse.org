@@ -17,22 +17,10 @@ draft: false
 #links: []
 ---
 
-Mailing list
-====
+You can reach the Eclipse openMobility Working Group via mailing list:
 
-Join the openMobility Mailing list.
+<a href="https://accounts.eclipse.org/mailing-list/openmobility"><button type="button" class="btn btn-secondary">Join openMobility Mailing list <i class="fa fa-envelope"></i></button></a>
 
-<a href="https://accounts.eclipse.org/mailing-list/openmobility"><button type="button" class="btn btn-secondary">Click here <i class="fa fa-envelope"></i></button></a>
+Events and announcements are also published via Twitter
 
-<hr>
-
-Wiki
-===
-<a href="https://wiki.eclipse.org/OpenMobility"><button type="button" class="btn btn-secondary">Click here</button></a>
-
-
-<hr>
-
-Social media
-===
 <a href="https://www.twitter.com/open_mobility" style="color:#00ACEE;"><i class="fa fa-4x fa-twitter-square"></i></a>
