@@ -1,7 +1,7 @@
 ---
 title: "Technologies"
 date: 2019-04-16T16:09:21+02:00
-layout: "member-list"
+layout: "technologies-list"
 description: ""
 categories: []
 keywords: []

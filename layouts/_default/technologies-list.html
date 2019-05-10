@@ -17,6 +17,7 @@
                 <li>
                   <a href="{{- with .Params.link | default .RelPermalink }} {{.}} {{- end }}" class="media media-link">
                   
+                  <h4 class="media-text">{{ .Title }}</h4>
                   <p class="media-text">{{ .Summary }}</p>
 
                 </a>
