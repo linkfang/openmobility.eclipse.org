@@ -31,7 +31,7 @@
       <div class="col-sm-12 news-list">
         <div class="news-list-col margin-bottom-40">
           <h2 class="heading-line text-center" style="color:rgb(245,147,49); font-weight: bold;">
-            <span>Upcoming Meetings & Conferences</span>
+            <span>Meetings & Conferences</span>
           </h2>
           {{ range first 2 (where (index .Site.Taxonomies.categories "event").Pages "Section" "events") }}
           <ul class="news-list-media list-unstyled">
