@@ -21,6 +21,13 @@ pipeline {
     NAMESPACE = 'foundation-internal-webdev-apps'
     IMAGE_NAME = 'eclipsefdn/openmobility.eclipse.org'
     ENVIRONMENT = environmentFromBranch(env.BRANCH_NAME)
+<<<<<<< HEAD
+=======
+    GIT_COMMIT_SHORT = sh(
+      script: "printf \$(git rev-parse --short ${GIT_COMMIT})",
+      returnStdout: true
+    )
+>>>>>>> Added Jenkinsfile for CI build
   }
 
   options {
@@ -38,11 +45,11 @@ pipeline {
       }
       steps {
         sh '''
-          docker build --no-cache --pull --build-arg HUGO_VERSION=${hugo_version} --build-arg NODE_VERSION=${node_version} -t ${IMAGE_NAME}:${BUILD_NUMBER} -t ${IMAGE_NAME}:latest .
+          docker build --no-cache --pull --build-arg HUGO_VERSION=${hugo_version} --build-arg NODE_VERSION=${node_version} -t ${IMAGE_NAME}:${GIT_COMMIT_SHORT}-${BUILD_NUMBER} -t ${IMAGE_NAME}:latest .
         '''
         withDockerRegistry([credentialsId: '04264967-fea0-40c2-bf60-09af5aeba60f', url: 'https://index.docker.io/v1/']) {
           sh '''
-            docker push ${IMAGE_NAME}:${BUILD_NUMBER}
+            docker push ${IMAGE_NAME}:${GIT_COMMIT_SHORT}-${BUILD_NUMBER}
             docker push ${IMAGE_NAME}:latest
           '''
         }
@@ -70,7 +77,7 @@ pipeline {
               def appSelector = openshift.selector('deployments', [app: "${APP_NAME}", environment: "${ENVIRONMENT}"])
               appSelector.describe()
               def app = appSelector.object()
-              app.spec.template.spec.containers[0].image = "${IMAGE_NAME}"+':'+"${BUILD_NUMBER}"
+              app.spec.template.spec.containers[0].image = "${IMAGE_NAME}"+':'+"${GIT_COMMIT_SHORT}-${BUILD_NUMBER}"
               openshift.apply(app)
               timeout(5) {
                 appSelector.rollout().status()
