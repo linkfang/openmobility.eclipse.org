@@ -7,13 +7,10 @@ ARG NODE_VERSION=10.15.0
 ENV NODE_VERSION="${NODE_VERSION}"
 
 RUN apt-get update && apt-get install -y \
-    autoconf \
     build-essential \
     ca-certificates \
     curl \
     git \
-    libtool \
-    nasm \
     --no-install-recommends
 
 RUN curl -L -o /tmp/node.tar.xz "https://nodejs.org/dist/v${NODE_VERSION}/node-v${NODE_VERSION}-linux-x64.tar.xz" \
@@ -29,7 +26,7 @@ RUN curl -L -o /tmp/hugo.deb "https://github.com/gohugoio/hugo/releases/download
 WORKDIR /workdir
 COPY . /workdir/
 
-RUN npm install \
+RUN npm ci \
     && npm run production \
     && hugo
 
