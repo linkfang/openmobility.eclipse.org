@@ -24,7 +24,7 @@ SUMO is developed in C++ and Python. It runs on Windows, Linux and macOS.
 
 ### License:
 
-<a href="https://projects.eclipse.org/license/epl-2.0">Eclipse Public License 2.0</a>
+<a href="https://www.eclipse.org/legal/epl-2.0/">Eclipse Public License 2.0</a>
 
 ### Screenshots:
 
