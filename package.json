@@ -20,10 +20,6 @@
   },
   "readmeFilename": "README.md",
   "dependencies": {
-    "eclipsefdn-hugo-solstice-theme": "0.0.18",
-    "eclipsefdn-solstice-assets": "0.0.52"
-  },
-  "dependenciesComments": {
-    "eclipsefdn-solstice-assets": "remove after the next update of eclipsefdn-hugo-solstice-theme,"
+    "eclipsefdn-hugo-solstice-theme": "0.0.21"
   }
 }

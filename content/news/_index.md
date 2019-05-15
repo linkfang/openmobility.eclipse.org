@@ -11,6 +11,7 @@ slug: ""
 #subtitle: ""
 #tagline: ""
 #links: []
+hide_sidebar: true
 ---
 
 

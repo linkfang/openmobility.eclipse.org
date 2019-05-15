@@ -1,74 +1,71 @@
-{{ define "jumbotron"}}{{ partial "jumbotron.html" . }}{{end}}
 {{ define "main" }}
-<main>
-  <div class="container">
-
-    <!-- Member logos -->
-    <div class="margin-top-20">
-      <h2 class="heading-line text-center" style="color:rgb(245,147,49); font-weight: bold;">Our Members</h2>
-      <div class="container-fluid text-center">
-        <br>
-      <div class="row text-center">
-        <a href="{{ "/members/bosch" | relURL }}"><div class="col-md-6"><img src="images/members/bosch-logo.svg" width="200px" alt="BOSCH logo" style="pointer-events:none; margin-bottom: 20px;"></div></a>
-        <a href="{{ "/members/dlr" | relURL }}"><div class="col-md-6"><img src="images/members/dlr-logo.svg" width="200px" alt="DLR logo" style="pointer-events:none; margin-bottom: 20px;"></div></a>
-        <a href="{{ "/members/fraunhofer" | relURL }}"><div class="col-md-6"><img src="images/members/fraunhofer-logo.png" width="200px" alt="FRAUNHOFER logo" style="pointer-events:none; margin-bottom: 20px;"></div></a>
-        <a href="{{ "/members/vector" | relURL }}"><div class="col-md-6"><img src="images/members/vector-logo.svg" width="200px" alt="VECTOR logo" style="pointer-events:none; margin-bottom: 20px;"></div></a>
-      </div>
-      </div>
-    </div>
-
-
-    <div class="margin-top-40" style="padding: 35px; background: white;">
-		<p><img src="images/gears.svg" width="200px" alt="gears" style="pointer-events:none; margin-bottom: 20px;float:left">
-		Mobility modelling and traffic simulation technologies are important tools for <b>testing autonomous driving functions</b>, developing <b>new mobility solutions</b> and for creating <b>digital twins</b> of urban areas. This working group shapes and fosters the development of required software tools and frameworks based on validated mobility models in order to provide a common platform for industrial applications and academic research.<br><br>
-        <a href="{{ "/vision/" | relURL }}"><button type="button" class="btn btn-secondary" style="margin-bottom:5px;">Read our Vision</button></a>
-        <a href="https://www.eclipse.org/org/workinggroups/openmobility_charter.php"><button type="button" class="btn btn-secondary"style="margin-bottom:5px;">View Group Charter</button></a>
-      </div>
-
-
-    <!-- Upcoming Meetings & Conferences and Tweets -->
-    <div class="row margin-top-40">
-      <div class="col-sm-12 news-list">
-        <div class="news-list-col margin-bottom-40">
-          <h2 class="heading-line text-center" style="color:rgb(245,147,49); font-weight: bold;">
-            <span>Meetings & Conferences</span>
-          </h2>
-          {{ range first 2 (where (index .Site.Taxonomies.categories "event").Pages "Section" "events") }}
-          <ul class="news-list-media list-unstyled">
-            <li>
-              <a href="{{- with .Params.link | default .RelPermalink }} {{.}} {{- end }}" class="media media-link match-height-item" >
-                <!-- <p class="media-date">{{ .Date.Format "Monday, Jan 2, 2006" }}</p> -->
-                <p><span class="label label-default">{{ .Params.label }}</span></p>
-                      <p class="media-date">{{ .Params.event_date }}</p>
-                <h4 class="media-heading">{{ .Title }}</h4>
-                <p class="media-text">{{ .Params.location }}</p>
-                <p class="media-text">{{ .Summary }}</p>
-              </a>
-            </li>
-          </ul>
-          {{ end }}
-          <ul class="list-inline news-list-links">
-            <li class="news-list-links-view-all"><a href="{{ "/events" | relURL }}">View all</a></li>
-            <li class="news-list-links-rss"><a href="{{ "categories/event/index.xml" | relURL }}" title="Subscribe to our RSS-feed">Subscribe to our RSS-feed <i class="fa fa-rss"></i></a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="col-sm-12 news-list">
-        <div class="news-list-col margin-bottom-20">
-          <h2 class="heading-line text-center" style="color:rgb(245,147,49); font-weight: bold;">
-            <span>Our Tweets</span>
-          </h2>
-          <a class="twitter-timeline" data-height="700" href="https://twitter.com/open_mobility?ref_src=twsrc%5Etfw">Tweets by openMobility</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-        </div>
-      </div>
+<!-- Member logos -->
+<div class="margin-top-20">
+  <h2 class="heading-line text-center" style="color:rgb(245,147,49); font-weight: bold;">Our Members</h2>
+  <div class="container-fluid text-center">
+    <br>
+    <div class="row text-center">
+      <a href="{{ "/members/bosch" | relURL }}">
+      <div class="col-md-6"><img src="images/members/bosch-logo.svg" width="200px" alt="BOSCH logo" style="pointer-events:none; margin-bottom: 20px;"></div>
+      </a>
+      <a href="{{ "/members/dlr" | relURL }}">
+      <div class="col-md-6"><img src="images/members/dlr-logo.svg" width="200px" alt="DLR logo" style="pointer-events:none; margin-bottom: 20px;"></div>
+      </a>
+      <a href="{{ "/members/fraunhofer" | relURL }}">
+      <div class="col-md-6"><img src="images/members/fraunhofer-logo.png" width="200px" alt="FRAUNHOFER logo" style="pointer-events:none; margin-bottom: 20px;"></div>
+      </a>
+      <a href="{{ "/members/vector" | relURL }}">
+      <div class="col-md-6"><img src="images/members/vector-logo.svg" width="200px" alt="VECTOR logo" style="pointer-events:none; margin-bottom: 20px;"></div>
+      </a>
     </div>
   </div>
+</div>
+<div class="margin-top-40" style="padding: 35px; background: white;">
+  <p><img src="images/gears.svg" width="200px" alt="gears" style="pointer-events:none; margin-bottom: 20px;float:left">
+    Mobility modelling and traffic simulation technologies are important tools for <b>testing autonomous driving functions</b>, developing <b>new mobility solutions</b> and for creating <b>digital twins</b> of urban areas. This working group shapes and fosters the development of required software tools and frameworks based on validated mobility models in order to provide a common platform for industrial applications and academic research.<br><br>
+    <a href="{{ "/vision/" | relURL }}"><button type="button" class="btn btn-secondary" style="margin-bottom:5px;">Read our Vision</button></a>
+    <a href="https://www.eclipse.org/org/workinggroups/openmobility_charter.php"><button type="button" class="btn btn-secondary"style="margin-bottom:5px;">View Group Charter</button></a>
+</div>
+<!-- Upcoming Meetings & Conferences and Tweets -->
+<div class="row margin-top-40">
+  <div class="col-sm-12 news-list">
+    <div class="news-list-col margin-bottom-40">
+      <h2 class="heading-line text-center" style="color:rgb(245,147,49); font-weight: bold;">
+        <span>Meetings & Conferences</span>
+      </h2>
+      {{ range first 2 (where (index .Site.Taxonomies.categories "event").Pages "Section" "events") }}
+      <ul class="news-list-media list-unstyled">
+        <li>
+          <a href="{{- with .Params.link | default .RelPermalink }} {{.}} {{- end }}" class="media media-link match-height-item" >
+            <!-- <p class="media-date">{{ .Date.Format "Monday, Jan 2, 2006" }}</p> -->
+            <p><span class="label label-default">{{ .Params.label }}</span></p>
+            <p class="media-date">{{ .Params.event_date }}</p>
+            <h4 class="media-heading">{{ .Title }}</h4>
+            <p class="media-text">{{ .Params.location }}</p>
+            <p class="media-text">{{ .Summary }}</p>
+          </a>
+        </li>
+      </ul>
+      {{ end }}
+      <ul class="list-inline news-list-links">
+        <li class="news-list-links-view-all"><a href="{{ "/events" | relURL }}">View all</a></li>
+        <li class="news-list-links-rss"><a href="{{ "categories/event/index.xml" | relURL }}" title="Subscribe to our RSS-feed">Subscribe to our RSS-feed <i class="fa fa-rss"></i></a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="col-sm-12 news-list">
+    <div class="news-list-col margin-bottom-20">
+      <h2 class="heading-line text-center" style="color:rgb(245,147,49); font-weight: bold;">
+        <span>Our Tweets</span>
+      </h2>
+      <a class="twitter-timeline" data-height="700" href="https://twitter.com/open_mobility?ref_src=twsrc%5Etfw">Tweets by openMobility</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+  </div>
+</div>
+{{ end }}
 
-
-  
+{{ define "footer-custom" }}
  <div class="container-fluid text-center" style="padding-top:50px; height: 150px; background-color: #0F2C5C;">
   <a href="https://accounts.eclipse.org/mailing-list/openmobility"><button type="button" class="btn btn-lg btn-primary">Join our Mailing list <i class="fa fa-envelope"></i></button></a>
 </div>
-</main>
 {{ end }}
