@@ -1,7 +1,7 @@
 ---
 title: "openMobility Working Group Kick-Off"
 date: 2019-05-13T05:10:00-00:00
-
+layout: "single-event"
 #link: ""
 categories: ["event"]
 label: "Meeting"
