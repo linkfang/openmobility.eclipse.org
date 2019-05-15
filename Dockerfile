@@ -1,10 +1,7 @@
 FROM debian:9 AS builder
 
 ARG HUGO_VERSION=0.54.0
-ENV HUGO_VERSION="${HUGO_VERSION}"
-
 ARG NODE_VERSION=10.15.0
-ENV NODE_VERSION="${NODE_VERSION}"
 
 RUN apt-get update && apt-get install -y \
     build-essential \
@@ -26,10 +23,15 @@ RUN curl -L -o /tmp/hugo.deb "https://github.com/gohugoio/hugo/releases/download
 WORKDIR /workdir
 COPY . /workdir/
 
+RUN echo -n "Node.js version " && node --version \
+  && echo -n "npm version " && npm --version \
+  && hugo version
+
 RUN npm ci \
     && npm run production \
     && hugo
 
 FROM eclipsefdn/nginx
 
+COPY nginx.conf /etc/nginx/conf.d/default.conf
 COPY --from=builder /workdir/public/* /usr/share/nginx/html/
