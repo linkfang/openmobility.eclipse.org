@@ -8,7 +8,7 @@ spec:
     matchLabels:
       app: openmobility.eclipse.org
       environment: staging
-  replicas: 2
+  replicas: 1
   template:
     metadata:
       labels:
