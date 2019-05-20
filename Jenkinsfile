@@ -21,13 +21,10 @@ pipeline {
     NAMESPACE = 'foundation-internal-webdev-apps'
     IMAGE_NAME = 'eclipsefdn/openmobility.eclipse.org'
     ENVIRONMENT = environmentFromBranch(env.BRANCH_NAME)
-<<<<<<< HEAD
-=======
     GIT_COMMIT_SHORT = sh(
       script: "printf \$(git rev-parse --short ${GIT_COMMIT})",
       returnStdout: true
     )
->>>>>>> Added Jenkinsfile for CI build
   }
 
   options {
