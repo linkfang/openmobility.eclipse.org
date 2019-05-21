@@ -33,5 +33,4 @@ RUN npm ci \
 
 FROM eclipsefdn/nginx
 
-COPY nginx.conf /etc/nginx/conf.d/default.conf
 COPY --from=builder /workdir/public/* /usr/share/nginx/html/
