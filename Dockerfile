@@ -31,10 +31,6 @@ RUN npm ci \
     && npm run production \
     && hugo
 
-RUN ls -al /workdir/public/
-
 FROM eclipsefdn/nginx
 
 COPY --from=builder /workdir/public/ /usr/share/nginx/html/
-
-RUN ls -al /usr/share/nginx/html/
