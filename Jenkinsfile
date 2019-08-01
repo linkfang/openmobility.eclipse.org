@@ -25,6 +25,26 @@ pipeline {
       script: "printf \$(git rev-parse --short ${GIT_COMMIT})",
       returnStdout: true
     )
+    BASE_NGINX_IMAGE_TAG = sh(
+      script: """
+        if [ ${env.ENVIRONMENT} = "production" ]; then 
+          printf "stable-alpine"
+        else
+          printf "stable-alpine-for-staging"
+        fi
+      """,
+      returnStdout: true
+    )
+    TAG_NAME = sh(
+      script: """
+        if [ ${env.ENVIRONMENT} = '' ]; then
+          printf ${env.GIT_COMMIT_SHORT}-${env.BUILD_NUMBER}
+        else
+          printf ${env.ENVIRONMENT}-${env.GIT_COMMIT_SHORT}-${env.BUILD_NUMBER}
+        fi
+      """,
+      returnStdout: true
+    )
   }
 
   options {
@@ -42,11 +62,11 @@ pipeline {
       }
       steps {
         sh '''
-          docker build --no-cache --pull --build-arg HUGO_VERSION=${hugo_version} --build-arg NODE_VERSION=${node_version} -t ${IMAGE_NAME}:${GIT_COMMIT_SHORT}-${BUILD_NUMBER} -t ${IMAGE_NAME}:latest .
+          docker build --no-cache --pull --build-arg NGINX_IMAGE_TAG="${BASE_NGINX_IMAGE_TAG}" --build-arg HUGO_VERSION="${hugo_version}" --build-arg NODE_VERSION="${node_version}" -t ${IMAGE_NAME}:${TAG_NAME} -t ${IMAGE_NAME}:latest .
         '''
         withDockerRegistry([credentialsId: '04264967-fea0-40c2-bf60-09af5aeba60f', url: 'https://index.docker.io/v1/']) {
           sh '''
-            docker push ${IMAGE_NAME}:${GIT_COMMIT_SHORT}-${BUILD_NUMBER}
+            docker push ${IMAGE_NAME}:${TAG_NAME}
             docker push ${IMAGE_NAME}:latest
           '''
         }
@@ -74,7 +94,7 @@ pipeline {
               def appSelector = openshift.selector('deployments', [app: "${APP_NAME}", environment: "${ENVIRONMENT}"])
               appSelector.describe()
               def app = appSelector.object()
-              app.spec.template.spec.containers[0].image = "${IMAGE_NAME}"+':'+"${GIT_COMMIT_SHORT}-${BUILD_NUMBER}"
+              app.spec.template.spec.containers[0].image = "${IMAGE_NAME}"+':'+"${TAG_NAME}"
               openshift.apply(app)
               timeout(5) {
                 appSelector.rollout().status()
