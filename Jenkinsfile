@@ -27,6 +27,7 @@ pipeline {
     APP_NAME = 'openmobility.eclipse.org'
     NAMESPACE = 'foundation-internal-webdev-apps'
     IMAGE_NAME = 'eclipsefdn/openmobility.eclipse.org'
+    CONTAINER_NAME = 'nginx'
     ENVIRONMENT = sh(
       script: """
         if [ ${env.BRANCH_NAME} = "master" ]; then
