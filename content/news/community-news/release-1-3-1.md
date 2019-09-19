@@ -1,7 +1,7 @@
 ---
 title: "Release of Eclipse SUMO 1.3.1"
 date: 2019-08-27
-link: "https://sumo.dlr.de/wiki/ChangeLog#Version_1.3.1_.2827.08.2019.29"
+link: "https://sumo.dlr.de/docs/ChangeLog.html#version_131_27082019"
 categories: ["community-news"]
 ---
 <table><tr><td><img src="../../images/logo/sumo-release.png" width="50px" alt="SUMO icon" style="pointer-events:none;">&nbsp;</td>
