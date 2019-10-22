@@ -110,8 +110,8 @@ canonifyURLs = false #keep false
     weight = 3
 
 [[menu.main]]
-    name = "Tuleap"
-    url = "https://tuleap.eclipse.org/projects/openMobilityWG/"
+    name = "User Stories"
+    url = "https://github.com/openmobility-wg/userstories/issues"
     parent = "Working Group"
     weight = 4
 
