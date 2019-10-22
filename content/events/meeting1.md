@@ -14,4 +14,4 @@ Kick-Off meeting for the openMobility Working Group during the SUMO User Confere
 
 The first official working group meeting will take place at the SUMO User Conference 2019. It is primarily intended for the group members. However, interested parties are invited to join. We ask all participants to officially register as an "openMobility Participant" for this event.
 
-[Meeting minutes](https://wiki.eclipse.org/OpenMobilityMeetingMinutes#13_May_2019_openMobility_Eclipse_Working_Group_Kickoff)
+[Meeting minutes](https://wiki.eclipse.org/OpenMobilityMeetingMinutes#openMobility_Eclipse_Working_Group_Kickoff_.28May.2C_13_2019.29)
