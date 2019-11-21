@@ -92,6 +92,12 @@ canonifyURLs = false #keep false
     weight = 1
 
 [[menu.main]]
+    name = "Eclipse MUSTANG"
+    url = "https://projects.eclipse.org/proposals/eclipse-mustang/"
+    parent = "Technologies"
+    weight = 2
+
+[[menu.main]]
     name = "About"
     url = "/working-group/"
     parent = "Working Group"
