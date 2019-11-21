@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/EclipseFdn/openmobility.eclipse.org.svg?branch=master)](https://travis-ci.org/EclipseFdn/openmobility.eclipse.org)
+[![GitHub license](https://img.shields.io/github/license/EclipseFdn/openmobility.eclipse.org.svg)](https://github.com/EclipseFdn/openmobility.eclipse.org/blob/master/LICENSE)
 
 # openmobility.eclipse.org
 
@@ -7,9 +8,6 @@ The [openmobility.eclipse.org](https://openmobility.eclipse.org) website is gene
 <img src="https://i.imgur.com/ECvSBcZ.jpg" alt="openMobility logo" width="200">
 
 The OpenMobility working group will drive the evolution and broad adoption of mobility modelling and simulation technologies. It accomplishes its goal by fostering and leveraging collaborations among members and by ensuring the development and availability of the “OpenMobility framework”. This framework will provide the tools for a detailed simulation of the movement of vehicles and people as well as their communication patterns. It will be valuable for testing driver assistance systems, predicting and optimizing traffic as well as evaluating new business concepts, such as Mobility-as-a-Service.
-
-[![Build Status](https://travis-ci.org/EclipseFdn/openmobility.eclipse.org.svg?branch=master)](https://travis-ci.org/EclipseFdn/openmobility.eclipse.org)
-[![GitHub license](https://img.shields.io/github/license/EclipseFdn/openmobility.eclipse.org.svg)](https://github.com/EclipseFdn/openmobility.eclipse.org/blob/master/LICENSE)
 
 ## Getting started
 
