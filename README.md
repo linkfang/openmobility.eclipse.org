@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/EclipseFdn/openmobility.eclipse.org.svg?branch=master)](https://travis-ci.org/EclipseFdn/openmobility.eclipse.org)
+
 # openmobility.eclipse.org
 
 The [openmobility.eclipse.org](https://openmobility.eclipse.org) website is generated with [Hugo](https://gohugo.io/documentation/).
