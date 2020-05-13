@@ -1,22 +1,9 @@
 {{ define "main" }}
 <div class="row margin-bottom-50 margin-top-20">
-  <div class="col-sm-12 news-list">
-    <h2 class="header-underline margin-bottom-30">Announcements</h2>
-    <div id="news-list-container" class="news-list" data-news-type="announcements" data-news-count="5" data-publish-target="openmobility">
+  <div class="col-sm-24 news-list">
+    <div id="community-news-list-container" class="news-list" data-news-type="community_news" data-news-count="10" data-publish-target="openmobility" data-pagination="true">
     </div>
-    <ul class="list-inline block-summary-more margin-bottom-40">
-      <li><a href="https://newsroom.eclipse.org/rss/news/openmobility/news.xml" title="Subscribe to our RSS-feed"><i class="fa fa-rss margin-right-5"></i></a> <a href="/news/announcements">View all</a></li>
-      <li class="news-list-links-view-all"><a href="https://newsroom.eclipse.org/node/add/news">Submit News</a></li>
-    </ul>
-  </div>
-  <div class="col-sm-12 news-list">
-    <h2 class="header-underline margin-bottom-30">Community News</h2>
-    <div id="community-news-list-container" class="news-list" data-news-type="community_news" data-news-count="5" data-publish-target="openmobility">
-    </div>
-    <ul class="list-inline block-summary-more margin-bottom-40">
-      <li><a href="https://newsroom.eclipse.org/rss/news/openmobility/news.xml" title="Subscribe to our RSS-feed"><i class="fa fa-rss margin-right-5"></i></a> <a href="/news/community-news">View all</a></li>
-      <li class="news-list-links-view-all"><a href="https://newsroom.eclipse.org/node/add/news">Submit News</a></li>
-    </ul>
+
   </div>
 </div>
 {{ end }}
