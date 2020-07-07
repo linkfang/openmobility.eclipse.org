@@ -1,6 +1,6 @@
 ---
 title: "Contact"
-date: 2019-04-16T16:09:45+02:00
+date: 2020-07-07T16:09:45+02:00
 layout: "single"
 description: ""
 categories: []
@@ -17,10 +17,10 @@ draft: false
 #links: []
 ---
 
-You can reach the Eclipse openMobility Working Group via mailing list:
+You can reach the Eclipse openMobility Working Group via mailing list: 
 
-<a href="https://accounts.eclipse.org/mailing-list/openmobility"><button type="button" class="btn btn-secondary">Join openMobility Mailing list <i class="fa fa-envelope"></i></button></a>
+[Join openMobility Mailing list](https://accounts.eclipse.org/mailing-list/openmobility)
 
-Events and announcements are also published via Twitter
+Events and announcements are also published via Twitter: 
 
-<a href="https://www.twitter.com/open_mobility" style="color:#00ACEE;"><i class="fa fa-4x fa-twitter-square"></i></a>
+[Follow us on Twitter](https://www.twitter.com/open_mobility)
