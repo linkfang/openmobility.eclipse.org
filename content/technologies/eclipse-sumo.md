@@ -9,16 +9,16 @@ description: ""
 	
 Eclipse SUMO comprises of a graphical user interface and a variety of external programs for pre- and post-processing. Its core components are:
 
-* SUMO: command line simulation
-* GUISIM: simulation with a graphical user interface
-* NETCONVERT: network importer
-* NETGEN: abstract networks generator
-* OD2TRIPS: converter from O/D matrices to trips
-* JTRROUTER: routes generator based on turning ratios at intersections
-* DUAROUTER: routes generator based on a dynamic user assignment
-* DFROUTER: route generator with use of detector data
-* MAROUTER: macroscopic user assignment based on capacity functions
-* NETEDIT: Visual editor for street networks, traffic lights, detectors, and further network elements
+* sumo: command line simulation
+* sumo-gui: simulation with a graphical user interface
+* netconvert: network importer
+* netgenerate: abstract networks generator
+* od2trips: converter from O/D matrices to trips
+* jtrrouter: routes generator based on turning ratios at intersections
+* duarouter: routes generator based on a dynamic user assignment
+* dfrouter: route generator with use of detector data
+* marouter: macroscopic user assignment based on capacity functions
+* netedit: Visual editor for street networks, traffic lights, detectors, and further network elements
 
 SUMO is developed in C++ and Python. It runs on Windows, Linux and macOS.
 
