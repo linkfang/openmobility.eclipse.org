@@ -9,6 +9,11 @@ themesDir = "node_modules/"
 buildFuture = true #allows to publish posts with future dates
 canonifyURLs = false #keep false
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [Params]
   google_tag_manager = "GTM-5WLCZXC"
   description = "The openMobility working group will drive the evolution and broad adoption of mobility modelling and simulation technologies."
