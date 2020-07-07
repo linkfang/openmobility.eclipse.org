@@ -1,10 +1,10 @@
 ---
-title: "Eclipse MUSTANG"
-date: 2019-04-12T16:09:21+02:00
+title: "Eclipse MOSAIC"
+date: 2020-07-07T16:09:21+02:00
 layout: "single"
 description: ""
 ---
-Eclipse MUSTANG provides a multi-domain/multi-scale co-simulation environment for virtual testing of connected and automated driving and mobility solutions. The co-simulation environment consists of
+Eclipse MOSAIC provides a multi-domain/multi-scale co-simulation environment for virtual testing of connected and automated driving and mobility solutions. The co-simulation environment consists of
 
 * Run-time Infrastructure (RTI) for simulator coupling, providing all management tasks for simulation orchestration and simulator interaction including the respective internal model adaptations and transfer
 * A collection of pre-packaged simulators for domains of interest, i.e. ad hoc and mobile network communication simulation, vehicle dynamics, and applications
@@ -27,4 +27,4 @@ An advanced feature of dynamic co-simulation is the possibility to exchange simu
 
 
 ### Links:
-[Proposal](https://projects.eclipse.org/proposals/eclipse-mustang/)
+[Proposal](https://projects.eclipse.org/proposals/eclipse-mosaic)

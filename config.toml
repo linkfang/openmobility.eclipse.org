@@ -97,8 +97,8 @@ canonifyURLs = false #keep false
     weight = 1
 
 [[menu.main]]
-    name = "Eclipse MUSTANG"
-    url = "/technologies/eclipse-mustang"
+    name = "Eclipse MOSAIC"
+    url = "/technologies/eclipse-mosaic"
     parent = "Technologies"
     weight = 2
 
