@@ -27,4 +27,5 @@ An advanced feature of dynamic co-simulation is the possibility to exchange simu
 
 
 ### Links:
-[Proposal](https://projects.eclipse.org/proposals/eclipse-mosaic)
+[Website](https://www.eclipse.org/mosaic/)   
+[Eclipse MOSAIC on Github](https://github.com/eclipse/mosaic)
