@@ -65,42 +65,37 @@ canonifyURLs = false #keep false
     weight = 2
 
 [[menu.main]]
-    name = "Events"
-    url = "/events/"
+    name = "Vision"
+    url = "/vision/"
     weight = 3
 
 [[menu.main]]
-    name = "Vision"
-    url = "/vision/"
+    name = "Projects"
+    url = "/projects/"
     weight = 4
-
-[[menu.main]]
-    name = "Technologies"
-    url = "/technologies/"
-    weight = 5
 
 [[menu.main]]
     name = "Members"
     url = "/members/"
-    weight = 6
+    weight = 5
 
 [[menu.main]]
     name = "Working Group"
     url = "/working-group/"
-    weight = 7
+    weight = 6
 
 # Sub-menu
 
 [[menu.main]]
     name = "Eclipse SUMO"
-    url = "/technologies/eclipse-sumo"
-    parent = "Technologies"
+    url = "https://www.eclipse.org/sumo"
+    parent = "Projects"
     weight = 1
 
 [[menu.main]]
     name = "Eclipse MOSAIC"
-    url = "/technologies/eclipse-mosaic"
-    parent = "Technologies"
+    url = "https://www.eclipse.org/mosaic"
+    parent = "Projects"
     weight = 2
 
 [[menu.main]]
