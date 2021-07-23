@@ -1,5 +1,5 @@
 {{ define "main" }}
-  {{ .Content }} 
+  {{ .Content }}
   {{ $paginator := .Paginate .Data.Pages }}
   {{ if ne $paginator.NumberOfElements 0 }}
   <div class="container-fluid">
@@ -15,5 +15,6 @@
       </div>
     </div>
   {{ end }}
+
 {{ end }}
 

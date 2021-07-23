@@ -8,4 +8,4 @@ aliases:
   - /news/community-news
 ---
 
-
+{{< newsroom/news id="news-list-container" archive="true" publishTarget="openmobility" count="10" paginate="true" >}}

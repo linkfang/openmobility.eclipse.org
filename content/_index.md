@@ -10,4 +10,13 @@ date: 2019-03-14T15:50:25-04:00
 hide_sidebar : true
 hide_page_title: true
 hide_breadcrumb: true
+layout: "single"
 ---
+
+{{< homepage/members >}}
+
+{{< homepage/vision >}}
+
+{{< homepage/news >}}
+  {{< newsroom/events id="events-template-id" templateId="custom-events-template" class="news-list" includeList="true" publishTarget="openmobility" templatePath="/js/templates/events.mustache" count="2" upcoming="true">}}
+{{</ homepage/news>}}
