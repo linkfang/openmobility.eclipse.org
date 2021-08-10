@@ -19,5 +19,9 @@ draft: false
 
 Meeting minutes:
 
-- ...
+- [Telco Aug 10, 2021](/working-group/minutes/20210810)
+
+Older minutes:
+
+- [Archive at Eclipse Wiki](https://wiki.eclipse.org/OpenMobilityMeetingMinutes)
   
