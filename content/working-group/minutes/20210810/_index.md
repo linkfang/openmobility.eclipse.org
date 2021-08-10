@@ -11,8 +11,6 @@ toc: false
 draft: false
 ---
 
-# openMobility Telco (Aug 10th, 2021)
-
 ## Attendees
 
 - Robert Hilbrich
