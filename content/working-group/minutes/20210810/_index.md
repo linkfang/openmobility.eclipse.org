@@ -1,6 +1,6 @@
 ---
 title: "openMobility Telco Aug 10th, 2021"
-date: 2020-08-10T16:09:45+02:00
+date: 2020-08-10T17:09:45+02:00
 layout: "single"
 description: ""
 categories: []
