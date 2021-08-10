@@ -120,7 +120,7 @@ canonifyURLs = false #keep false
 
 [[menu.main]]
     name = "Meeting Minutes"
-    url = "https://wiki.eclipse.org/OpenMobilityMeetingMinutes"
+    url = "/working-group/minutes"
     parent = "Working Group"
     weight = 5
 
