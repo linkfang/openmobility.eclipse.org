@@ -1,4 +1,3 @@
-[![Build Status](https://travis-ci.org/EclipseFdn/openmobility.eclipse.org.svg?branch=master)](https://travis-ci.org/EclipseFdn/openmobility.eclipse.org)
 [![GitHub license](https://img.shields.io/github/license/EclipseFdn/openmobility.eclipse.org.svg)](https://github.com/EclipseFdn/openmobility.eclipse.org/blob/master/LICENSE)
 
 # openmobility.eclipse.org
