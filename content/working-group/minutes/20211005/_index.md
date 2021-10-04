@@ -1,6 +1,6 @@
 ---
-title: "openMobility Telco Oct 4th, 2021"
-date: 2021-10-04T17:09:45+02:00
+title: "openMobility Telco Oct 5th, 2021"
+date: 2021-10-05T17:09:45+02:00
 layout: "single"
 description: ""
 categories: []
