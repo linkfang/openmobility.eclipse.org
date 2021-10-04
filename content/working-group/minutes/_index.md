@@ -1,6 +1,6 @@
 ---
 title: "Minutes"
-date: 2020-07-07T16:09:45+02:00
+date: 2021-10-05T16:09:45+02:00
 layout: "single"
 description: ""
 categories: []
