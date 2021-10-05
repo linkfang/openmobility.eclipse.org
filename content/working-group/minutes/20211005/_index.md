@@ -89,7 +89,7 @@ draft: false
 ## Next Meetings
 
 - Next meeting: Oct 19, 13:30-14:30 Berlin time
-  - Please prepare your thoughts on the future of openMobility - do we want to define and follow a program plan? 
+  - Please prepare your thoughts on the future of openMobility - do we want to define and follow a program plan?
 
 - Technical meeting to follow next: Pedestrians and Shared Space
   - Foodle for a time slot in the next 4-6 weeks will be sent out by Michael Behrisch
