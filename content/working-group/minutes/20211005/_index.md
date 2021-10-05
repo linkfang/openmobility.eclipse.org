@@ -19,7 +19,18 @@ draft: false
 
 ### Eclipse SUMO
 
-- ...
+-	SUMO User Conference from September 13 to 15, 2021 
+  -	Virtual conference using Zoom as in the last year
+  -	International audience from over 30 different countries on 4 continents
+  -	A total of over 350 participants
+  -	User tutorial by Jakob about the latest SUMO features and extensions, with many interested questions from the audience
+  -	28 presentations on various topics of mobility simulation and modeling with open source tools and data as well as a keynote on ride-hailing, ride-pooling and the role of traffic simulation in this context
+  -	Virtual social event on Tuesday evening
+  -	Wonder.me room for further discussions about SUMO during the breaks for networking and informal exchange
+- SUMO changes
+  - All (positional) detector can now handle persons
+  - boarding duration also applies to exiting persons / containers
+- Contact to Google / Alphabet Modeling team
 
 ### Eclipse MOSAIC
 
@@ -29,7 +40,7 @@ draft: false
 
 - ...
 
-## Real Work”
+## Real Work
 
 ### Whitepaper: Survey or Landscape of Demand Generators for SUMO
 
