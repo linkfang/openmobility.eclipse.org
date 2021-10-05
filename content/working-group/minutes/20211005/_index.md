@@ -19,9 +19,9 @@ draft: false
 
 ### Eclipse SUMO
 
--	SUMO User Conference from September 13 to 15, 2021 
-  -	Virtual conference using Zoom as in the last year
-  -	International audience from over 30 different countries on 4 continents
+- SUMO User Conference from September 13 to 15, 2021 
+  - Virtual conference using Zoom as in the last year
+  - International audience from over 30 different countries on 4 continents
   -	A total of over 350 participants
   -	User tutorial by Jakob about the latest SUMO features and extensions, with many interested questions from the audience
   -	28 presentations on various topics of mobility simulation and modeling with open source tools and data as well as a keynote on ride-hailing, ride-pooling and the role of traffic simulation in this context
