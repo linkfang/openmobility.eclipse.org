@@ -1,6 +1,6 @@
 ---
 title: "Minutes"
-date: 2021-10-05T16:09:45+02:00
+date: 2021-10-19T16:09:45+02:00
 layout: "single"
 description: ""
 categories: []
@@ -19,6 +19,7 @@ draft: false
 
 Meeting minutes:
 
+- [Telco Oct 19, 2021](/working-group/minutes/20211019)
 - [Telco Oct 5, 2021](/working-group/minutes/20211005)
 - [Telco Aug 10, 2021](/working-group/minutes/20210810)
 
